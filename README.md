@@ -9,6 +9,10 @@ Players compete to collect a shared data packet and deliver it to a relay base b
 Playable WebGL build:  
 https://saycheesexd.itch.io/packet-panic-relay-arena
 
+## Demo Video
+
+[Watch Gameplay Demo](https://youtu.be/ypY-vy6bhDg)
+
 ## Features
 
 - Unity 3D arena gameplay
