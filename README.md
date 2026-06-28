@@ -40,12 +40,12 @@ https://saycheesexd.itch.io/packet-panic-relay-arena
 
 ## Gameplay Loop
 
-1. Join the same room from two browser windows or devices.
+1. Join the same room.
 2. Collect the data packet.
 3. Deliver it to the relay base to score.
 4. Shoot the packet carrier to force a packet drop.
 5. Pick up the dropped packet and steal the objective.
-6. When time runs out, both players can restart with the Play Again button.
+6. When time runs out, players can restart with the Play Again button.
 
 ## Technical Details
 
@@ -64,7 +64,7 @@ A networked game state object controls:
 - Match phase
 - Rematch reset
 
-This ensures both clients see the same packet state, score, timer, and match result.
+This ensures all clients see the same packet state, score, timer, and match result.
 
 ### Shooting
 
@@ -72,7 +72,7 @@ Projectiles are spawned using an object pooling system. Shooting is triggered th
 
 ### WebGL
 
-The project is prepared as a WebGL build for browser-based play. The game is optimized as a lightweight two-player multiplayer prototype.
+The project is prepared as a WebGL build for browser-based play. The game is optimized as a lightweight multiplayer prototype.
 
 ## Screenshots
 
@@ -101,8 +101,8 @@ This is a portfolio prototype built to demonstrate:
 
 ## Known Limitations
 
-- Designed mainly for stable two-player matches
-- Third-player WebGL testing may be performance-heavy on a single machine
+- Players spanwning at the same point can take a while for the models to settle
+- Current build has a shared score board among players
 - Visual polish is intentionally lightweight
 - Gameplay is prototype-scale rather than full production-scale
 
