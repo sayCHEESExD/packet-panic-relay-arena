@@ -11,7 +11,7 @@ https://saycheesexd.itch.io/packet-panic-relay-arena
 
 ## Demo Video
 
-[Watch Gameplay Demo](https://youtu.be/ypY-vy6bhDg)
+[Watch Gameplay Demo](https://youtu.be/Y1ngHqnFYnE)
 
 ## Features
 
