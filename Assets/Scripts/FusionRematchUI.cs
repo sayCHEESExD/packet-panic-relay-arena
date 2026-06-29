@@ -6,6 +6,7 @@ public class FusionRematchUI : MonoBehaviour
 {
     [Header("Panels")]
     public GameObject rematchPanel;
+    public GameObject matchHUD;
 
     [Header("UI")]
     public TextMeshProUGUI finalText;
@@ -52,6 +53,10 @@ public class FusionRematchUI : MonoBehaviour
 
     private void ShowRematchPanel()
     {
+        if (matchHUD != null)
+        {
+            matchHUD.SetActive(false);
+        }
         if (rematchPanel != null)
         {
             rematchPanel.SetActive(true);
@@ -70,6 +75,10 @@ public class FusionRematchUI : MonoBehaviour
 
     private void HideRematchPanel()
     {
+        if (matchHUD != null)
+        {
+            matchHUD.SetActive(true);
+        }
         if (rematchPanel != null)
         {
             rematchPanel.SetActive(false);
